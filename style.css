@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.header {
+  background-image: url(img/first-screen_1.png);
+  padding-bottom: 353px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.f {
+  display: flex;
+  flex-direction: row;
+}
+
+.font_mont {
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.btn-w {
+  width: 16.875rem;
+  height: 5.5rem;
+}
+
+.img-c {
+  max-width: 100%;
+  width: 100%;
+  background: #081130;
+}
+
+.img-wh {
+  margin-top: -400px;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  z-index: 99;
+}
+
+.bg-c {
+  background: #081130;
+}
+
+/* li {
+  color: #5D6AFB;
+ }
+ li span {
+  color: #2E363E;
+ } */
+
+.li li {
+  color: #081130;
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.li li::before {
+  content: '●';
+  color: #5D6AFB;
+  padding-right: 10px;
+}
+
+.img-top {
+  margin-left: -39px;
+  margin-top: -324px;
+  z-index: -9999;
+  background: #FED84C;
+  border-radius: 56%;
+  border: none;
+}
+
+.z {
+  z-index: 999;
+}
+
+.cz-n {
+  cursor: default;
+}
+
+.text-cb {
+  background: #2E363E;
+  width: 287px;
+  height: 60px;
+  padding: 10px 24px;
+  border-radius: 10px;
+  transform: skewX(-15deg);
+  cursor: default;
+}
+
+.text-cb-1 {
+  margin-left: 30px;
+  background: #F2F6FA;
+  width: 218px;
+  height: 60px;
+  padding: 15px 24px;
+  border-radius: 10px;
+  transform: skewX(-15deg);
+  cursor: default;
+}
+
+.tt {
+  margin-top: -230px;
+  margin-left: -90px;
+  cursor: default;
+}
+
+.dd {
+  display: flex;
+  justify-content: center;
+}
+
+.lh-11 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+.lh-2 {
+  font-size: 21px;
+  line-height: 143%;
+  letter-spacing: -0.2px;
+}
+
+.lh-3 {
+  line-height: 143%;
+  letter-spacing: -0.2px;
+}
+.p{
+  width: 122px;
+  height: 36px;
+}
+.rr{
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}
